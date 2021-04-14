@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   color: white;
+  text-align: center;
   font-family: "Century Gothic", sans-serif;
 }
 
@@ -10,7 +11,6 @@ body {
   width: auto;
   background: rgba(0, 0, 0, 0.4);
   padding: 40px;
-  text-align: center;
   margin: auto;
   margin-left: 15%;
   margin-right: 15%;
@@ -20,18 +20,16 @@ body {
 
 .box-img {
   border-radius: 100%;
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  max-width: 200px;
 }
 
-.box h1 {
-  font-size: auto;
+.box h2 {
   letter-spacing: auto;
   font-weight: 100;
 }
 
 .box h3 {
-  font-size: auto;
   letter-spacing: auto;
   font-weight: 100;
 }
@@ -52,13 +50,13 @@ ul {
 }
 
 a {
-    color: white;
-    text-decoration: none; /* To remove underlines*/
-    transition: ease-in-out 250ms;
+  color: white;
+  text-decoration: none; /* To remove underlines*/
+  transition: ease-in-out 250ms;
 }
 
 .box li a {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 a:hover {
